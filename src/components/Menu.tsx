@@ -7,11 +7,6 @@ const menuItems = [
     title: "MENU",
     items: [
       {
-        icon: "/home.png",
-        label: "Dashboard",
-        href: "/",
-      },
-      {
         icon: "/sort.png",
         label: "Rooms",
         href: "/modules/room",

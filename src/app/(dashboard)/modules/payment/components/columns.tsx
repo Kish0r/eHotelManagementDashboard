@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 export const columns: ColumnDef<Payment>[] = [
   {
     accessorKey: "payment_id",
-    header: () => <div className="text-right">Payment ID</div>,
+    header: () => <div className="text-left">Payment ID</div>,
   },
   {
     accessorKey: "booking_id",
